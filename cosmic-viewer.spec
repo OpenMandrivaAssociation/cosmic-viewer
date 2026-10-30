@@ -19,6 +19,7 @@ BuildRequires:  pkgconfig(libheif)
 BuildRequires:  pkgconfig(xkbcommon)
 BuildRequires:  cmake
 BuildRequires:  nasm
+BuildRequires:  make
 
 %description
 COSMIC Image Viewer.
