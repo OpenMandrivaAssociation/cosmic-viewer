@@ -11,6 +11,7 @@ Source0:        https://github.com/pop-os/cosmic-viewer/archive/epoch-%{version}
 Source1:        vendor.tar.xz
 Source2:        cargo_config
 
+BuildRequires:  just
 BuildRequires:  rust-packaging
 BuildRequires:  rust >= 1.93
 BuildRequires:  hicolor-icon-theme
