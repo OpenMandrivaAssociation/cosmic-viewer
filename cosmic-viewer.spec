@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 %global appid com.system76.CosmicViewer
 
 Name:           cosmic-viewer
@@ -41,4 +42,4 @@ just rootdir=%{buildroot} prefix=%{_prefix} install
 %{_bindir}/%{name}
 %{_datadir}/applications/%{appid}.desktop
 %{_datadir}/metainfo/%{appid}.metainfo.xml
-%{_datadir}/icons/hicolor/scalable/apps/%{appid}.svg
+
